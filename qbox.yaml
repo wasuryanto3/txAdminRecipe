@@ -75,11 +75,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[standalone]/scully_emotemenu
-    ref: main
-    src: https://github.com/Scullyy/scully_emotemenu
-
-  - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbox-project/PolyZone
